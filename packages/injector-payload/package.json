@@ -1,0 +1,13 @@
+{
+  "name": "@mwa-injector/payload",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/payload.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/payload.js dist/payload.js",
+    "test": "node --test src/payload.test.js"
+  },
+  "dependencies": {
+    "@mwa-injector/core": "0.1.0"
+  }
+}

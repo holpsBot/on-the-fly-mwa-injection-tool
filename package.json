@@ -1,0 +1,14 @@
+{
+  "name": "on-the-fly-mwa-injection-tool",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run -ws build",
+    "test": "npm run -ws test",
+    "lint": "echo 'lint TODO'"
+  }
+}
